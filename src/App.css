@@ -1,0 +1,212 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+.contact {
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-item {
+  margin-bottom: 10px;
+}
+
+.certifications {
+  margin-bottom: 30px;
+}
+
+.certification {
+  border: 1px solid rgb(233, 153, 153);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.certification {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer; /* Adicione esta linha para indicar que é clicável */
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+/* App.css */
+/* ... restante do código ... */
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  text-align: center;
+  position: relative; /* Adicione esta linha */
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333; /* Adicione esta linha para tornar o ícone mais visível */
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.tab:hover {
+  background-color: #f0f0f0;
+}
+
+.tab.active {
+  background-color: #ddd;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+/* App.css */
+/* ... restante do código ... */
+
+header {
+  background-color: #ecf0f1; /* Cor de fundo mais leve para a seção header */
+  padding: 20px;
+  text-align: center;
+  color: #2c3e50; /* Cor do texto para a seção header */
+  border-bottom: 2px solid #bdc3c7; /* Destaque na borda inferior com cinza mais escuro */
+}
+
+.profile-picture {
+  border-radius: 50%;
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  background-color: #ecf0f1; /* Cor de fundo mais leve para a seção das tabs */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #bdc3c7; /* Destaque nas bordas com cinza mais escuro */
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.tab:hover {
+  background-color: #bdc3c7; /* Cor de destaque ao passar o mouse */
+}
+
+.tab.active {
+  background-color: #3498db; /* Cor de destaque para a tab ativa */
+  color: #fff; /* Cor do texto para a tab ativa */
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para o pop-up */
+  border: 2px solid #bdc3c7; /* Destaque nas bordas do pop-up com cinza mais escuro */
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333;
+}
+
+/* ... restante do código ... */
+
+.section {
+  display: flex;
+  align-items: center;
+  border: 1px solid #bdc3c7; /* Destaque nas bordas com cinza mais escuro */
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.icon {
+  width: 300px;
+  height: 300px;
+  margin-right: 10px;
+}
